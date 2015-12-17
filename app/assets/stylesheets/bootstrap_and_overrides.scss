@@ -6,13 +6,29 @@
   background-size: cover;
 }
 
+@media only screen and (max-width: 736px) {
+  .about-why-bg-image {
+    background: none;
+    background-color: #4AB2BF;
+  }
+}
+
+.about-no-padding {
+  padding: 0;
+}
+
 .about-image-valign-bottom-right {
   margin: 100% 0% 0% 100%;
 }
 
-.about-no-x-margins {
-    margin-left: 0px;
-    margin-right: 0px;
+.about-image-full-width {
+  width: 100%;
+}
+
+// .about-no-x-margins {
+.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
 }
 
 .about-text-white {
@@ -31,8 +47,32 @@
   color: #3F7C88;
 }
 
-.about-text-greenish{
+.about-text-black-primary {
+  color: #31353D;
+}
+
+.about-text-black-dark {
+  color: #999999;
+}
+
+.about-text-black-mid {
+  color: #CCCCCC;
+}
+
+.about-text-black-light {
+  color: #F6F6F6;
+}
+
+.about-text-green-primary {
   color: #7CC576;
+}
+
+.about-text-green-dark {
+  color: #629E67;
+}
+
+.about-text-green-light{
+  color: #BDE2BA;
 }
 
 .about-text-black {
@@ -75,19 +115,27 @@
   margin-top: 20px;
 }
 
+.about-margin-top-40 {
+  margin-top: 40px;
+}
+
+.about-margin-top-50 {
+  margin-top: 50px;
+}
+
+.about-margin-bottom-5 {
+  margin-bottom: 5px;
+}
+
 .about-margin-bottom-20 {
   margin-bottom: 20px;
 }
 
-.about-margin-top-40{
-  margin-top: 40px;
-}
-
-.about-margin-bottom-40{
+.about-margin-bottom-40 {
   margin-bottom: 40px;
 }
 
-.about-margin-bottom-100{
+.about-margin-bottom-100 {
   margin-bottom: 100px;
 }
 
