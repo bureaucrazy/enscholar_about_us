@@ -1,30 +1,27 @@
 <%# Heading %>
 <div id="about-top">
-  <%#= image_tag "logo_white.png" %>
   <%= image_tag "top.png", class: "img-responsive" %>
 </div>
 
-<div class="row bg-color-gray">
-  <p/>
-  <div class="">
+<div class="row about-bg-gray about-no-x-margins">
+  <div class="about-margin-top-5">
     <%# Mission Vision Tabs %>
-    <div class="col-md-12 text-center">
-      <ul class="nav nav-pills center-pills" role="group" aria-label="...">
+    <div class="col-md-12">
+      <ul class="nav nav-pills about-pills-center about-pills-color about-nav-pointer" role="group" aria-label="...">
         <li class="active"><a href="#our_story" aria-controls="our_story" role="tab" data-toggle="tab">Our Story</a></li>
         <li><a href="#our_mission" aria-controls="our_mission" role="tab" data-toggle="tab">Our Mission</a></li>
         <li><a href="#media_page" aria-controls="media_page" role="tab" data-toggle="tab">Media Page</a></li>
-      </div>
+      </ul>
     </div>
   </div>
 </div>
-<div class="row bg-default">
-  <br>
+<div class="row about-margin-top-40 about-margin-bottom-20 about-no-x-margins">
   <div class="col-xs-8 col-xs-offset-2 col-lg-8 col-lg-offset-2">
     <div class="tab-content">
       <div role="tabpanel" class="tab-pane fade in active" id="our_story">
         <div class="row">
           <div class="col-lg-6">
-            <div class="col-lg-11 col-lg-offset-1"><p class="text-sub-heading">Our Story</p></div>
+            <div class="col-lg-11 col-lg-offset-1"><p class="about-text-size-sub-heading">Our Story</p></div>
             <p>Three recent graduates set out to find the root of student engagement in the hopes of improving education for the next generation. They found that highly engaged students better understood their interests, strengths, and values, and made life decisions aligned with them.</p>
             <p>The evolution of enScholar would mirror the personal growth of each of the founders, who continued to seek out meaning and fulfillment in their own lives.</p>
             <p>Today, our team spans continents, cultures, and generations. We are truly a unique, passionate, and value-driven group that cares deeply about empowering today's youth.</p>
@@ -37,7 +34,7 @@
       <div role="tabpanel" class="tab-pane fade" id="our_mission">
         <div class="row">
           <div class="col-lg-6">
-            <div class="col-lg-11 col-lg-offset-1"><p class="text-sub-heading">Our Mission</p></div>
+            <div class="col-lg-11 col-lg-offset-1"><p class="about-text-size-sub-heading">Our Mission</p></div>
             <p><strong>The mission</strong> of the enScholar Educational Foundation is to help people live more meaningful, empowered lives, by facilitating a deeper understanding of themselves, so that they may, in turn, change the world for the better.</p>
             <p>Our aim is to revolutionize education and personal development by making them engaging, fun, and accessible to as many people as possible, regardless of location or economic status.</p>
           </div>
@@ -58,18 +55,16 @@
               </div>
               <div class="col-lg-6">Where you can find us online</div>
               <div class="col-lg-12">
-                <br><br>
-                <strong>Media contact:</strong>
-                <br>
+                <div class="about-margin-top-40"><strong>Media contact:</strong></div>
                 Isaiah Baldissera, Communications Lead
-                <a class="text-bluish" href="mailto:isaiah@enscholar.com">isaiah@enscholar.com</a>
+                <a class="about-text-primary" href="mailto:isaiah@enscholar.com">isaiah@enscholar.com</a>
               </div>
             </div>
           </div>
           <div class="col-lg-8">
             <p><strong>Name:</strong> enScholar ('S' is capitalized; pronounced like 'engage')</p>
             <p><strong>Registered non-profit name:</strong> The enScholar Educational Foundation</p>
-            <p><strong>Website:</strong> <a class="text-bluish" href="#">www.enscholar.com</a></p>
+            <p><strong>Website:</strong> <a class="about-text-primary" href="#">www.enscholar.com</a></p>
             <p><strong>25 words:</strong> enScholar is a non-profit changing how students find a career path through easy-to-use, video-guided tools that teach self-exploration and critical thinking.</p>
             <p><strong>50 words:</strong> enScholar is a non-profit changing how students find a career path through easy-to-use, video-guided tools that teach self-exploration and critical thinking. The self-directed, mobile-friendly system is currently being used in high school planning classes, and is designed to give parents an opportunity to play an active role.</p>
           </div>
@@ -78,13 +73,12 @@
     </div>
   </div>
 </div>
-<br>
-<div class="row bg-color-gray">
-  <br>
-  <div class="col-lg-8 col-lg-offset-2">
+
+<div class="row about-bg-gray about-no-x-margins">
+  <div class="col-lg-8 col-lg-offset-2 about-margin-top-40 about-margin-bottom-40">
     <%# Core Values Tabs %>
-    <p class="text-greenish text-center text-warning text-sub-heading">Our Core Values</p>
-    <ul class="list-inline text-center text-small">
+    <p class="about-text-greenish text-center about-text-size-sub-heading">Our Core Values</p>
+    <ul class="list-inline text-center about-text-small">
       <li><a class="text-muted" href="#one" aria-controls="one" role="tab" data-toggle="tab">Commitment to our vision</a></li>
       |
       <li><a class="text-muted" href="#two" aria-controls="two" role="tab" data-toggle="tab">Growth</a></li>
@@ -100,15 +94,12 @@
       <li><a class="text-muted" href="#seven" aria-controls="seven" role="tab" data-toggle="tab">Teamwork & Collaboration</a></li>
     </ul>
 
-    <br>
-
-    <div class="row">
+    <div class="row about-margin-top-20">
       <div class="col-lg-1 col-lg-offset-1">
         <%= image_tag "quote_left.png", class: "img-responsive" %>
       </div>
       <div class="col-lg-8">
-        <br>
-        <div class="tab-content text-muted">
+        <div class="tab-content text-muted about-margin-top-20">
           <div role="tabpanel" class="tab-pane fade in active" id="one">
             We promote, foster, and live out the mission and values of enScholar, not only in our work, but also in our personal lives. We are passionate about our vision, and put it above our own egos and self-interests.
           </div>
@@ -133,19 +124,18 @@
         </div>
       </div>
       <div class="col-lg-1">
-        <br><%= image_tag "quote_right.png", class: "img-responsive" %>
+        <%= image_tag "quote_right.png", class: "img-responsive" %>
       </div>
     </div>
   </div>
-  <br><br>
 </div>
 
 
 <%# Why %>
-<div id="about-why" class="bg-why">
+<div id="about-why" class="about-why-bg-image">
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 text-white">
-      <p class="text-center text-heading">Why we're non-profit</p>
+    <div class="col-lg-8 col-lg-offset-2 about-text-white about-margin-top-40 about-margin-bottom-40">
+      <p class="text-center about-text-size-heading">Why we're non-profit</p>
       <p>
         Our vision is to see young people lead better lives by making smarter career decisions. This is what gets us up in the morning and
         guides each decision we make. Our non-profit status is directly aligned with our value of transparency. It also allows us to partner
@@ -164,77 +154,72 @@
   </div>
 </div>
 
-<br><br>
-
 <%# Team %>
-<div class="row">
-  <div class="col-lg-8 col-lg-offset-2">
-    <p class="text-center text-heading">Our Team</p>
-    <br>
-    <div class="row">
-      <div class="col-md-4 col-xs-6 text-center">
+<div class="row about-no-x-margins">
+  <div class="col-lg-8 col-lg-offset-2 about-margin-top-40">
+    <p class="text-center about-text-size-heading">Our Team</p>
+    <div class="row about-margin-bottom-40">
+      <div class="col-md-4 col-xs-6 text-center about-margin-top-40">
         <%= image_tag "team_1.png", class: "img-circle" %>
         <h4>
-          Ari Nitikman
-          <br><small>Social Media Volunteer</small>
+          <p>Ari Nitikman</p>
+          <small>Social Media Volunteer</small>
         </h4>
       </div>
-      <div class="col-md-4 col-xs-6 text-center">
+      <div class="col-md-4 col-xs-6 text-center about-margin-top-40">
         <%= image_tag "team_2.png", class: "img-circle" %>
         <h4>
-          Clarence Lastname
-          <br><small>Social Media Volunteer</small>
+          <p>Clarence Lastname</p>
+          <small>Social Media Volunteer</small>
         </h4>
       </div>
-      <div class="col-md-4 col-xs-6 text-center">
+      <div class="col-md-4 col-xs-6 text-center about-margin-top-40">
         <%= image_tag "team_3.png", class: "img-circle" %>
         <h4>
-          Duncan Lastname
-          <br><small>Social Media Volunteer</small>
+          <p>Duncan Lastname</p>
+          <small>Social Media Volunteer</small>
         </h4>
       </div>
-      <br>
-      <div class="col-md-4 col-xs-6 text-center">
+      <div class="col-md-4 col-xs-6 text-center about-margin-top-40">
         <%= image_tag "team_4.png", class: "img-circle" %>
         <h4>
-          Isaiah Baldissera
-          <br><small>Social Media Volunteer</small>
+          <p>Isaiah Baldissera</p>
+          <small>Social Media Volunteer</small>
         </h4>
       </div>
-      <div class="col-md-4 col-xs-6 text-center">
+      <div class="col-md-4 col-xs-6 text-center about-margin-top-40">
         <%= image_tag "team_5.png", class: "img-circle" %>
         <h4>
-          Jaspreet Lastname
-          <br><small>Social Media Volunteer</small>
+          <p>Jaspreet Lastname</p>
+          <small>Social Media Volunteer</small>
         </h4>
       </div>
-      <div class="col-md-4 col-xs-6 text-center">
+      <div class="col-md-4 col-xs-6 text-center about-margin-top-40">
         <%= image_tag "team_6.png", class: "img-circle" %>
         <h4>
-          Kevin Lastname
-          <br><small>Social Media Volunteer</small>
+          <p>Kevin Lastname</p>
+          <small>Social Media Volunteer</small>
         </h4>
       </div>
-      <br>
-      <div class="col-md-4 col-xs-6 text-center">
+      <div class="col-md-4 col-xs-6 text-center about-margin-top-40">
         <%= image_tag "team_7.png", class: "img-circle" %>
         <h4>
-          Jasmine Lastname
-          <br><small>Social Media Volunteer</small>
+          <p>Jasmine Lastname</p>
+          <small>Social Media Volunteer</small>
         </h4>
       </div>
-      <div class="col-md-4 col-xs-6 text-center">
+      <div class="col-md-4 col-xs-6 text-center about-margin-top-40">
         <%= image_tag "team_8.png", class: "img-circle" %>
         <h4>
-          Luke Scoates
-          <br><small>Social Media Volunteer</small>
+          <p>Luke Scoates</p>
+          <small>Social Media Volunteer</small>
         </h4>
       </div>
-      <div class="col-md-4 col-xs-6 text-center">
+      <div class="col-md-4 col-xs-6 text-center about-margin-top-40">
         <%= image_tag "team_9.png", class: "img-circle" %>
         <h4>
-          And You!
-          <br><small><a href="#">Check out our openings</a></small>
+          <p>And You!</p>
+          <small><a href="#">Check out our openings</a></small>
         </h4>
       </div>
     </div>
@@ -242,14 +227,10 @@
   </div>
 </div>
 
-<br><br>
-
 <%# Volunteer %>
-<div class="row bg-info bg-color-light-bluish">
+<div class="row about-bg-light about-no-x-margins">
   <div class="col-xs-8 col-xs-offset-2 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
-    <br>
-    <p class="text-center text-heading">Volunteer With Us</p>
-    <br>
+    <p class="text-center about-text-size-heading about-margin-top-40 about-margin-bottom-40">Volunteer With Us</p>
     <p class="text-muted">
       Volunteers are the heart of our organization. They range in age, location, and expertise, but one thing is the same — they share our vision of helping students find their paths and lead more fulfilling lives.
     </p>
@@ -257,36 +238,32 @@
       If you're passionate about our cause, hard-working, and interested in joining our growing team, we'd love to hear from you.
       We're based in Vancouver, Canada, but have a team of international volunteers contributing from all over the globe.
     </p>
-    <br>
-    <p class="text-sub-heading">
-      <span class="glyphicon glyphicon-plus text-muted text-sub-heading" aria-hidden="true"></span>
+    <p class="about-text-size-sub-heading about-margin-top-20">
+      <span class="glyphicon glyphicon-plus text-muted" aria-hidden="true"></span>
       Core Team Members
-      <a class="text-bluish text-small" href="#"><u>Learn more</u></a>
+      <a class="about-text-primary about-text-small" href="#"><u>Learn more</u></a>
     </p>
-    <br>
-    <p class="text-muted">
+    <p class="text-muted about-margin-top-20">
       Our core team is made up of dedicated volunteers who fill roles in areas including, but not limited to Web & UX Design, Ruby on Rails Development, Community Outreach, Social Media and Human Resources. They contribute upwards of 10 hours per week and take on management roles within their area of expertise.
     </p>
-    <br><br>
-    <p class="text-sub-heading">
-      <span class="glyphicon glyphicon-plus text-muted text-sub-heading" aria-hidden="true"></span>
+    <p class="about-text-size-sub-heading about-margin-top-40">
+      <span class="glyphicon glyphicon-plus text-muted" aria-hidden="true"></span>
       Specialists
-      <a class="text-bluish text-small" href="#"><u>Learn more</u></a>
+      <a class="about-text-primary about-text-small" href="#"><u>Learn more</u></a>
     </p>
-    <br>
-    <p class="text-muted">
+    <p class="text-muted about-margin-top-20">
       Our specialists are volunteers who contribute in one area of expertise, usually remotely, and with less management responsibility than the Core Team members. They are located in different parts of the globe, and typically contribute between 2-6 hours per week in areas such as writing, design, and outreach.
     </p>
-    <br><br>
-    <p class="text-sub-heading">
-      <span class="glyphicon glyphicon-plus text-muted text-sub-heading" aria-hidden="true"></span>
+    <p class="about-text-size-sub-heading about-margin-top-40">
+      <span class="glyphicon glyphicon-plus text-muted" aria-hidden="true"></span>
       Ambassadors
-      <a class="text-bluish text-small" href="#"><u>Learn more</u></a>
+      <a class="about-text-primary about-text-small" href="#"><u>Learn more</u></a>
     </p>
-    <br>
-    <p class="text-muted">
+    <p class="text-muted about-margin-top-20 about-margin-bottom-40">
       Our Ambassador team is a diverse group whose primary role is to build community and create awareness of enScholar in their communities and online. They typically contribute between 1-3 hours on a weekly assignment and help us with a variety of important, but more casual work such as social media, promotion, and community development.
     </p>
-    <br><br>
   </div>
+</div>
+
+<div class="row about-margin-bottom-100 about-no-x-margins">
 </div>
