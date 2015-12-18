@@ -6,10 +6,18 @@
   background-size: cover;
 }
 
+.about-team-image-size {
+  width: 100%;
+}
+
 @media only screen and (max-width: 736px) {
   .about-why-bg-image {
     background: none;
     background-color: #4AB2BF;
+  }
+
+  .about-team-image-size {
+    width: 75%;
   }
 }
 
