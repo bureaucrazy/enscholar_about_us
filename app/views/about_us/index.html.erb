@@ -47,24 +47,28 @@
         <div class="row about-text-black-dark">
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 about-margin-bottom-20">
             <div class="row">
-              <div class="col-lg-12 about-no-padding about-margin-bottom-5"><%= image_tag "logo_color.png" %></div>
-              <div class="col-lg-6 about-no-padding">
-                <%= image_tag "social_twitter.png" %>
-                <%= image_tag "social_facebook.png" %>
-                <%= image_tag "social_linkedin.png" %>
+              <div class="col-lg-12 about-no-padding about-margin-bottom-18">
+                <%= link_to image_tag("logo_color.png"), "https://enscholar.com" %>
               </div>
-              <div class="col-lg-6 about-no-padding">Where you can find us online</div>
+              <div class="col-lg-6 about-no-padding about-margin-bottom-18">
+                <%= link_to image_tag("social_twitter.png", class: "about-margin-right-3"), "https://twitter.com/enscholar" %>
+                <%= link_to image_tag("social_facebook.png", class: "about-margin-right-3"), "https://facebook.com/enscholar" %>
+                <%= link_to image_tag("social_linkedin.png"), "https://linkedin.com/company/enscholar" %>
+              </div>
+              <!-- <div class="col-lg-6 about-no-padding">Where you can find us online</div> -->
+              <div class="col-lg-12 about-no-padding about-margin-bottom-18">
+                <%= link_to image_tag("try_it.png"), "https://gotryit.org/" %>
+              </div>
               <div class="col-lg-12 about-no-padding">
-                <div class="about-margin-top-40 about-text-black-primary"><strong>Media contact:</strong></div>
-                Isaiah Baldissera, Communications Lead
-                <a class="about-text-primary" href="mailto:isaiah@enscholar.com">isaiah@enscholar.com</a>
+                <strong>Media Inquiries</strong><br>
+                <a class="about-text-primary" href="mailto:pr@enscholar.com">pr@enscholar.com</a>
               </div>
             </div>
           </div>
           <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
             <p><span class="about-text-black-primary"><strong>Name:</strong></span> enScholar ('S' is capitalized; pronounced like 'engage')</p>
             <p><span class="about-text-black-primary"><strong>Registered non-profit name:</strong></span> The enScholar Educational Foundation</p>
-            <p><span class="about-text-black-primary"><strong>Website:</strong></span> <a class="about-text-primary" href="#">www.enscholar.com</a></p>
+            <p><span class="about-text-black-primary"><strong>Websites:</strong></span>&nbsp; &nbsp; &nbsp; &nbsp;<%= link_to "www.enscholar.com", "https://enscholar.com/", class:"about-text-primary" %>&nbsp; &nbsp; &nbsp;|&nbsp; &nbsp; &nbsp;<%= link_to "www.gotryit.org", "https://gotryit.org/", class:"about-text-primary" %></p>
             <p><span class="about-text-black-primary"><strong>25 words:</strong></span> enScholar is a non-profit changing how students find a career path through easy-to-use, video-guided tools that teach self-exploration and critical thinking.</p>
             <p><span class="about-text-black-primary"><strong>50 words:</strong></span> enScholar is a non-profit changing how students find a career path through easy-to-use, video-guided tools that teach self-exploration and critical thinking. The self-directed, mobile-friendly system is currently being used in high school planning classes, and is designed to give parents an opportunity to play an active role.</p>
           </div>
@@ -219,7 +223,7 @@
         <%= image_tag "team_9.png", class: "img-circle image-responsive about-team-image-size" %>
         <h4>
           <p>And You!</p>
-          <small><a href="#">Check out our openings</a></small>
+          <small><a href="https://enscholar.zendesk.com/hc/en-us/categories/200389337-volunteer-with-us">Check out our openings</a></small>
         </h4>
       </div>
     </div>
@@ -241,7 +245,7 @@
     <p class="about-text-size-sub-heading about-margin-top-20 about-text-black-primary">
       <span class="glyphicon glyphicon-plus about-text-black-dark" aria-hidden="true"></span>
       Core Team Members
-      <a class="about-text-primary about-text-small" href="#"><u>Learn more</u></a>
+      <a class="about-text-primary about-text-small" href="https://enscholar.zendesk.com/hc/en-us/categories/200389337-volunteer-with-us"><u>Learn more</u></a>
     </p>
     <p class="about-text-black-dark about-margin-top-20">
       Our core team is made up of dedicated volunteers who fill roles in areas including, but not limited to Web & UX Design, Ruby on Rails Development, Community Outreach, Social Media and Human Resources. They contribute upwards of 10 hours per week and take on management roles within their area of expertise.
@@ -249,7 +253,7 @@
     <p class="about-text-size-sub-heading about-margin-top-40 about-text-black-primary">
       <span class="glyphicon glyphicon-plus about-text-black-dark" aria-hidden="true"></span>
       Specialists
-      <a class="about-text-primary about-text-small" href="#"><u>Learn more</u></a>
+      <a class="about-text-primary about-text-small" href="https://enscholar.zendesk.com/hc/en-us/categories/200389337-volunteer-with-us"><u>Learn more</u></a>
     </p>
     <p class="about-text-black-dark about-margin-top-20">
       Our specialists are volunteers who contribute in one area of expertise, usually remotely, and with less management responsibility than the Core Team members. They are located in different parts of the globe, and typically contribute between 2-6 hours per week in areas such as writing, design, and outreach.
@@ -257,7 +261,7 @@
     <p class="about-text-size-sub-heading about-margin-top-40 about-text-black-primary">
       <span class="glyphicon glyphicon-plus about-text-black-dark" aria-hidden="true"></span>
       Ambassadors
-      <a class="about-text-primary about-text-small" href="#"><u>Learn more</u></a>
+      <a class="about-text-primary about-text-small" href="https://enscholar.zendesk.com/hc/en-us/categories/200389337-volunteer-with-us"><u>Learn more</u></a>
     </p>
     <p class="about-text-black-dark about-margin-top-20 about-margin-bottom-40">
       Our Ambassador team is a diverse group whose primary role is to build community and create awareness of enScholar in their communities and online. They typically contribute between 1-3 hours on a weekly assignment and help us with a variety of important, but more casual work such as social media, promotion, and community development.
