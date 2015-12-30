@@ -7,5 +7,4 @@ class Team < ActiveRecord::Base
   validates :title, presence:true
   validates :position, presence:true
   validates :avatar, presence:true
-
 end
