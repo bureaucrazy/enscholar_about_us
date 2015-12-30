@@ -38,7 +38,7 @@ gem 'activeadmin', github: 'activeadmin'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'acts_as_list'
-gem 'rails_12factor', group: :production
+gem 'rails_12factor'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
