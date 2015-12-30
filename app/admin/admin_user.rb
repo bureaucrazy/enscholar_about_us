@@ -20,8 +20,8 @@ ActiveAdmin.register AdminUser do
     f.inputs "Admin Details" do
       f.input :email
       f.input :avatar
-      # f.input :password
-      # f.input :password_confirmation
+      f.input :password
+      f.input :password_confirmation
     end
     f.actions
   end
