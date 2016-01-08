@@ -32,15 +32,21 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem "bootstrap-sass"
+gem 'bootstrap-sass'
+gem 'devise'
+gem 'activeadmin', github: 'activeadmin'
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'acts_as_list'
+gem 'rails_12factor'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 
-  gem "interactive_editor"
-  gem "awesome_print"
-  gem "hirb"
+  gem 'interactive_editor'
+  gem 'awesome_print'
+  gem 'hirb'
 end
 
 group :development do

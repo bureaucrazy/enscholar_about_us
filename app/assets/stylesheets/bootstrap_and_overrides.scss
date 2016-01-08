@@ -10,6 +10,11 @@
   width: 100%;
 }
 
+.about-team-image-size2 {
+  height: 242px;
+  width: 242px;
+}
+
 @media only screen and (max-width: 736px) {
   .about-why-bg-image {
     background: none;
@@ -119,6 +124,14 @@
   margin-top: 5px;
 }
 
+.about-margin-top-10 {
+  margin-top: 10px;
+}
+
+.about-margin-top-12 {
+  margin-top: 12px;
+}
+
 .about-margin-top-20 {
   margin-top: 20px;
 }
@@ -135,6 +148,10 @@
   margin-bottom: 5px;
 }
 
+.about-margin-bottom-18 {
+  margin-bottom: 18px;
+}
+
 .about-margin-bottom-20 {
   margin-bottom: 20px;
 }
@@ -145,6 +162,14 @@
 
 .about-margin-bottom-100 {
   margin-bottom: 100px;
+}
+
+.about-margin-right-3 {
+  margin-right: 3px;
+}
+
+.about-height-255 {
+  height: 255px;
 }
 
 .about-pills-center {
