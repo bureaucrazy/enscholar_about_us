@@ -25,8 +25,8 @@
             <p>We set out to find the root of student engagement in the hopes of improving education for the next generation. We found that the most highly-engaged, successful students have a deeper understanding of their interests, strengths, and values, and choose to make career and life decisions in alignment with them.</p>
             <p>The tools we've created help youth to develop a deeper understanding of self, and then connect with real-world experience - the two things that have the biggest impact on career confidence. Today, our team spans continents, cultures, and generations. We are truly a unique, passionate, and values-driven group that cares deeply about empowering today‘s youth.</p>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <%= image_tag "story_image.png", class: "img-responsive about-margin-top-10" %>
+          <div class="col-sm-6 col-md-6 col-lg-6 about-no-padding">
+            <%= image_tag "story_image.png", class: "img-responsive about-no-margin about-image" %>
           </div>
         </div>
       </div>
@@ -34,11 +34,11 @@
         <div class="row">
           <div class="col-sm-6 col-md-6 col-lg-6 about-text-black-dark">
             <div class="col-xs-12 col-sm-12 col-md-11 col-md-offset-1 col-lg-11 col-lg-offset-1"><p class="about-text-size-sub-heading about-text-black-primary">Our Mission</p></div>
-            <p><span class="about-text-black-primary"></span>To help youth make better career decisions, so that they can change the world through their work. We aim to make education and personal development engaging, fun, and accessible to as many people as possible - regardless of location or income.</p>
+            <p><span class="about-text-black-primary"></span>To help youth make better career decisions, so that they can change the world through their work. We aim to make education and personal development engaging, fun, and accessible to as many people as possible – regardless of location or income.</p>
             <p>We're building a global community where youth can mentor, engage, and share experiences of their own career exploration with others on the same path. We‘ll connect youth from around the world who share similar interests, strengths, values, and career aspirations, in the hopes of sparking ideas, promoting cross-cultural teamwork, and opening doors for the next generation of leaders.</p>
           </div>
-          <div class="col-sm-6 col-md-6 col-lg-6">
-            <%= image_tag "mission_image.png", class: "img-responsive about-margin-top-12" %>
+          <div class="col-sm-6 col-md-6 col-lg-6 about-no-padding">
+            <%= image_tag "mission_image.png", class: "img-responsive about-image" %>
           </div>
         </div>
       </div>
@@ -47,16 +47,16 @@
           <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 about-margin-bottom-20">
             <div class="row">
               <div class="col-lg-12 about-no-padding about-margin-bottom-18">
-                <%= link_to image_tag("logo_color.png"), "https://enscholar.com" %>
+                <%= link_to image_tag("logo_color.png"), "https://enscholar.com", :target => "_blank" %>
               </div>
               <div class="col-lg-6 about-no-padding about-margin-bottom-18">
-                <%= link_to image_tag("social_twitter.png", class: "about-margin-right-3"), "https://twitter.com/enscholar" %>
-                <%= link_to image_tag("social_facebook.png", class: "about-margin-right-3"), "https://facebook.com/enscholar" %>
-                <%= link_to image_tag("social_linkedin.png"), "https://linkedin.com/company/enscholar" %>
+                <%= link_to image_tag("social_twitter.png", class: "about-margin-right-3"), "https://twitter.com/enscholar", :target => "_blank" %>
+                <%= link_to image_tag("social_facebook.png", class: "about-margin-right-3"), "https://facebook.com/enscholar", :target => "_blank" %>
+                <%= link_to image_tag("social_linkedin.png"), "https://linkedin.com/company/enscholar", :target => "_blank" %>
               </div>
               <!-- <div class="col-lg-6 about-no-padding">Where you can find us online</div> -->
               <div class="col-lg-12 about-no-padding about-margin-bottom-18">
-                <%= link_to image_tag("try_it.png"), "https://gotryit.org/" %>
+                <%= link_to image_tag("try_it.png"), "https://gotryit.org/", :target => "_blank" %>
               </div>
               <div class="col-lg-12 about-no-padding">
                 <strong>Media Inquiries</strong><br>
@@ -98,10 +98,10 @@
     </ul>
 
     <div class="row about-margin-top-20">
-      <div class="col-xs-2 col-sm-1 col-sm-offset-1 col-md-1 col-md-offset-1 col-lg-1 col-lg-offset-2 about-no-padding">
+      <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 about-no-padding">
         <%= image_tag "quote_left.png", class: "" %>
       </div>
-      <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+      <div class="col-xs-8 col-sm-10 col-md-10 col-lg-10">
         <div class="tab-content about-text-black-dark about-margin-top-20">
           <div role="tabpanel" class="tab-pane fade in active" id="one">
             We promote, foster, and live out the mission and values of enScholar, not only in our work, but also in our personal lives. We are passionate about our vision, and put it above our self-interests.
@@ -126,7 +126,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1 about-no-padding">
+      <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 about-no-padding">
         <%= image_tag "quote_right.png", class: "about-margin-top-50" %>
       </div>
     </div>
@@ -165,35 +165,47 @@
 <div class="row about-bg-light">
   <div class="col-xs-12 col-sm-12 col-md-8 col-md-offset-2 col-lg-8 col-lg-offset-2">
     <p class="text-center about-text-black-primary about-text-size-heading about-margin-top-40 about-margin-bottom-40">Volunteer With Us</p>
-    <p class="about-text-black-dark">
+    <p class="about-text-black-darker">
       Volunteers are the heart of our organization. They range in age, location, and expertise, but one thing is the same — they share our vision of helping students find their paths and lead more fulfilling lives.
     </p>
-    <p class="about-text-black-dark">
+    <p class="about-text-black-darker">
       If you're passionate about our cause, hard-working, and interested in joining our growing team, we'd love to hear from you.
       We're based in Vancouver, Canada, but have a team of international volunteers contributing from all over the globe.
     </p>
-    <p class="about-text-size-sub-heading about-margin-top-20 about-text-black-primary">
-      <span class="glyphicon glyphicon-plus about-text-black-dark" aria-hidden="true"></span>
-      Core Team Members
-      <a class="about-text-primary about-text-small" href="https://enscholar.zendesk.com/hc/en-us/categories/200389337-volunteer-with-us"><u>Learn more</u></a>
-    </p>
-    <p class="about-text-black-dark about-margin-top-20">
+    <%= link_to "https://enscholar.zendesk.com/hc/en-us/categories/200389337-volunteer-with-us", target: "_blank", class: "about-no-hover" do %>
+      <div>
+        <p class="about-text-size-sub-heading about-margin-top-20 about-text-black-primary">
+          <span class="glyphicon glyphicon-plus about-text-black-dark" aria-hidden="true"></span>
+          Core Team Members
+            <u class="about-text-primary about-text-small">Learn more</u>
+        </p>
+      </div>
+    <% end %>
+    <p class="about-text-black-darker about-margin-top-20">
       Our core team is made up of dedicated volunteers who fill roles in areas including, but not limited to Web & UX Design, Ruby on Rails Development, Community Outreach, Social Media and Human Resources. They contribute upwards of 10 hours per week and take on management roles within their area of expertise.
     </p>
-    <p class="about-text-size-sub-heading about-margin-top-40 about-text-black-primary">
-      <span class="glyphicon glyphicon-plus about-text-black-dark" aria-hidden="true"></span>
-      Specialists
-      <a class="about-text-primary about-text-small" href="https://enscholar.zendesk.com/hc/en-us/categories/200389337-volunteer-with-us"><u>Learn more</u></a>
-    </p>
-    <p class="about-text-black-dark about-margin-top-20">
+    <%= link_to "https://enscholar.zendesk.com/hc/en-us/categories/200389337-volunteer-with-us", target: "_blank", class: "about-no-hover" do %>
+      <div>
+        <p class="about-text-size-sub-heading about-margin-top-20 about-text-black-primary">
+          <span class="glyphicon glyphicon-plus about-text-black-dark" aria-hidden="true"></span>
+            Specialists
+            <u class="about-text-primary about-text-small">Learn more</u>
+        </p>
+      </div>
+    <% end %>
+    <p class="about-text-black-darker about-margin-top-20">
       Our specialists are volunteers who contribute in one area of expertise, usually remotely, and with less management responsibility than the Core Team members. They are located in different parts of the globe, and typically contribute between 2-6 hours per week in areas such as writing, design, and outreach.
     </p>
-    <p class="about-text-size-sub-heading about-margin-top-40 about-text-black-primary">
-      <span class="glyphicon glyphicon-plus about-text-black-dark" aria-hidden="true"></span>
-      Ambassadors
-      <a class="about-text-primary about-text-small" href="https://enscholar.zendesk.com/hc/en-us/categories/200389337-volunteer-with-us"><u>Learn more</u></a>
-    </p>
-    <p class="about-text-black-dark about-margin-top-20 about-margin-bottom-40">
+    <%= link_to "https://enscholar.zendesk.com/hc/en-us/categories/200389337-volunteer-with-us", target: "_blank", class: "about-no-hover" do %>
+      <div>
+        <p class="about-text-size-sub-heading about-margin-top-20 about-text-black-primary">
+          <span class="glyphicon glyphicon-plus about-text-black-dark" aria-hidden="true"></span>
+            Ambassadors
+            <u class="about-text-primary about-text-small">Learn more</u>
+        </p>
+      </div>
+    <% end %>
+    <p class="about-text-black-darker about-margin-top-20 about-margin-bottom-40">
       Our Ambassador team is a diverse group whose primary role is to build community and create awareness of enScholar in their communities and online. They typically contribute between 1-3 hours on a weekly assignment and help us with a variety of important, but more casual work such as social media, promotion, and community development.
     </p>
   </div>
