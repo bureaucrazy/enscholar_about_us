@@ -30,6 +30,15 @@
   padding: 0;
 }
 
+.about-image {
+  margin-top: 18px;
+  float: right;
+}
+
+.about-right {
+  float: right;
+}
+
 .about-image-valign-bottom-right {
   margin: 100% 0% 0% 100%;
 }
@@ -62,6 +71,10 @@
 
 .about-text-black-primary {
   color: #31353D;
+}
+
+.about-text-black-darker {
+  color: #4A4A4A;
 }
 
 .about-text-black-dark {
@@ -101,7 +114,7 @@
 }
 
 .about-text-small {
-  font-size: 10pt;
+  font-size: 9.5pt;
 }
 
 .about-bg-primary {
@@ -214,4 +227,9 @@
   color: #FFF;
   background-color: #4AB2BF;
   border-radius: 0px;
+}
+
+.about-no-hover:hover {
+  color: none;
+  text-decoration: none;
 }

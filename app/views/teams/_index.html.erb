@@ -3,19 +3,21 @@
   <div class="row about-margin-bottom-40">
     <% @teams.each do |team| %>
     <div class="col-xs-6 col-md-4 text-center about-margin-top-40">
-      <%= image_tag team.avatar_url, class: "img-circle image-responsive about-team-image-size2"  %>
+      <%= image_tag team.avatar_url, class: "img-circle image-responsive about-team-image-size"  %>
       <h4>
         <p><%= team.first_name %> <%= team.last_name %></p>
         <small><%= team.title %></small>
       </h4>
     </div>
     <% end %>
-    <div class="col-xs-6 col-md-4 text-center about-margin-top-40">
-      <%= image_tag "team_9.png", class: "img-circle image-responsive about-team-image-size" %>
-      <h4>
-        <p>And You!</p>
-        <small><a href="#">Check out our openings</a></small>
-      </h4>
+    <%= link_to "https://enscholar.zendesk.com/hc/en-us/categories/200389337-volunteer-with-us", target: "_blank", class: "about-nohover" do %>
+      <div class="col-xs-6 col-md-4 text-center about-margin-top-40">
+        <%= image_tag "team_9.png", class: "img-circle image-responsive about-team-image-size" %>
+        <h4>
+          <p>And You!</p>
+          <small>Check out our openings</small>
+        </h4>
+      <% end %>
     </div>
   </div>
 </div>
