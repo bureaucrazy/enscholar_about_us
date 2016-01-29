@@ -204,19 +204,22 @@
 	pointer-events: none;
 }
 
-.about-nav-pointer li.active:after {
-	border-bottom-color: #3F7C88;
-	border-width: 6px;
-	margin-left: -6px;
-    z-index: 1;
-}
-.about-nav-pointer li.active:before {
-	border-bottom-color: #3F7C88;
-	border-width: 9px;
-	margin-left: -9px;
-    z-index: 1;
-}
+.about-nav-pointer {
 
+      li.active:after {
+      	border-bottom-color: #3F7C88;
+      	border-width: 6px;
+      	margin-left: -6px;
+        z-index: 1;
+      }
+
+      li.active:before {
+      	border-bottom-color: #3F7C88;
+      	border-width: 9px;
+      	margin-left: -9px;
+        z-index: 1;
+      }
+}
 
 .about-pills-color > li.active > a, .about-pills-color > li.active > a:hover, .about-pills-color > li.active > a:focus {
   background-color: #3F7C88;
